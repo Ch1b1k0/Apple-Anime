@@ -37,16 +37,12 @@ div:hover {
 	border-width: 20px;
 	padding: 15px;
 	background-color: white;
+  display: inline-block;
 }
 
 .Anime-image-Quote {
 	width: 300px;
 	height: 400px;
-}
-
-.Anime-image {
-	float:right;
-	float: top;
 }
 
 .parent {
@@ -57,9 +53,9 @@ div:hover {
 }
 
 .clearfix {
-float: left;
+float: right;
 }
 
-.SOUNDTRACK {
-	float: right;
+.apple {
+  float: right;
 }
