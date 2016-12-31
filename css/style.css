@@ -1,34 +1,17 @@
 header {
-	float: bottom;
-	float:right;
 	font-family: 'Lobster', cursive;
 	font-size: 30px;
+  color:red;
 }
 
 body {
 	background-image:url('../images/thumb-1920-370001.jpg');
 	background-repeat: no-repeat;
-    width: 300px;
-    height: 400px;
-    background-color: black;
-   }
-
-#spaceman {
-    width: 1150px;
-    height: 500px;
-    background-color:green;
-    transition: width 2s; 
-    background-color: rgba(0,0,0,.3);
-  	padding: 20px;
-  	color: rgba(255,255,255,.4);
-  	position: absolute;
-  	bottom: 8000000;
-  	left: 0;
-  	right: 0;
+  background-color: black;
 }
 
-div:hover {
-    width: 600px;
+body:active {
+  background-color: red;
 }
 
 .contact {
@@ -58,4 +41,38 @@ float: right;
 
 .apple {
   float: right;
+}
+
+#video-container {
+  display: inline-block;
+}
+
+#spaceman {
+    width: 1150px;
+    height: 500px;
+    background-color:green;
+    transition: width 2s; 
+    background-color: rgba(0,0,0,.3);
+    padding: 20px;
+    color: rgba(255,255,255,.4);
+    position: absolute;
+    bottom: 8000000;
+    left: 0;
+    right: 0;
+}
+
+.Anime {
+    color: red;
+}
+
+#the{
+  font-size: 25px;
+}
+
+.A {
+  color: hotpink;
+}
+
+.B {
+  color: red;
 }
